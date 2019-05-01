@@ -8,8 +8,8 @@ How To
 ## Run Syntax
 * To run: right-click on Run Unittest for BeTest...
 * For command line :
-  ** cd BeTestAppDemo
-  ** python3 -m unittest testcases/BeTestCases.py
+  * cd BeTestAppDemo
+  * python3 -m unittest testcases/BeTestCases.py
 
 ## How to configure run environment
 * Setup system env for PYTHON,APPIUM_URL, PLATFORM_VERSION
