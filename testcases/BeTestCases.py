@@ -1,3 +1,5 @@
+#coding=utf-8
+
 import time
 import unittest
 
@@ -7,6 +9,7 @@ from pageobjects.settingscreen import SettingScreen
 from pageobjects.splashscreen import SplashScreen
 from appium import webdriver
 from locators import locators
+
 
 class TestAppBe(unittest.TestCase):
 
@@ -41,5 +44,5 @@ class TestAppBe(unittest.TestCase):
         AppiumDriver.Driver().quit_driver()
 
     if __name__ == '__main__':
-        suite = unittest.TestLoader().loadTestsFromTestCase(TestAppBe)
+        suite = unittest.TestLoader().loadTestsFromTestCase(BeTestCases)
         unittest.TextTestRunner(verbosity=2).run(suite)

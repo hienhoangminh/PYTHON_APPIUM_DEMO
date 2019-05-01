@@ -1,6 +1,5 @@
 from appium import webdriver
 
-
 class Driver:
 
     def get_driver(self):
