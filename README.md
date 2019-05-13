@@ -23,4 +23,7 @@ How To
 * pageobjects: it defines all the screen in the application.
 * testcases: it defines the test cases.
 
-PLEASE NOTE : This is my sample project. It will be perfectionned and updated frequently.
+PLEASE NOTE : 
+ - This is my sample project. It will be perfectionned and updated frequently.
+ - I still can not handle the phase of get OTP, so test cases starts when user logged in successfully.
+
